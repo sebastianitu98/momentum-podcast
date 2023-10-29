@@ -3,7 +3,7 @@ import './CopyrightFooter.css'
 
 function CopyrightFooter() {
     return (
-        <div className='copyrightFooter mx-auto text-white mt-6  py-2 w-full'>
+        <div className='copyrightFooter mx-auto text-white mt-6 py-2 w-full'>
             <div className='flex mx-auto justify-center'>
                 <div className='flex'>
                     <img src='src/assets/copyrightIcon.png' alt="copyright" />
