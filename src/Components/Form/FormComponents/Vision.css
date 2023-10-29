@@ -1,0 +1,70 @@
+.form-component-title {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.form-component-description {
+    font-size: 30px;
+    color: white;
+    margin-right: 90px;
+}
+
+.vision-component {
+    left: 9%;
+}
+
+
+
+@media only screen and (max-width: 1570px) {
+
+    .vision-component {
+        bottom: 68%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .vision-component {
+        bottom: 75%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+
+    .vision-component {
+        bottom: 78%;
+    }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+
+    .vision-title {
+        font-size: 40px;
+    }
+
+    .vision-description {
+        font-size: 20px;
+    }
+
+    .vision-component {
+        bottom: 82%;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+
+    .vision-title {
+        font-size: 40px;
+    }
+
+    .vision-description {
+        font-size: 20px;
+    }
+
+    .vision-component {
+        bottom: 85%;
+    }
+}

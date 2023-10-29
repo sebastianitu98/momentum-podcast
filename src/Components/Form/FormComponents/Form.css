@@ -1,0 +1,97 @@
+.label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+#label-gdpr {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.input {
+    color: black;
+    height: 40px;
+}
+
+#checkbox-gdpr {
+    height: 30px;
+    width: 30px;
+}
+
+.form-form-component {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+}
+
+#formButton {
+    margin: 30px 10px 30px 10px;
+    padding: 10px 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 870px) {
+    .form-element-button {
+        padding: 0px 5px;
+    }
+
+    #label-gdpr {
+        font-size: 15px;
+    }
+
+    #checkbox-gdpr {
+        height: 20px;
+        width: 20px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .input {
+        height: 30px;
+    }
+
+    #formButton {
+        margin: 10px 7px 20px 7px;
+        padding: 3px 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .form-element-button {
+        padding: 0px 3px;
+    }
+
+    #label-gdpr {
+        font-size: 15px;
+    }
+
+    #checkbox-gdpr {
+        height: 17px;
+        width: 17px;
+    }
+
+    .label {
+        font-size: 15px;
+    }
+
+    .input {
+        height: 25px;
+        margin-bottom: 4px;
+    }
+
+    #formButton {
+        margin: 7px 7px 20px 7px;
+        padding: 2px 0px;
+        font-size: 15px;
+    }
+
+    .br-element {
+        display: none;
+    }
+}

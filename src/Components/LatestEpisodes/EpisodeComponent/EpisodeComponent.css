@@ -1,0 +1,29 @@
+.episodeElement {
+    background-color: #748628;
+    padding: 25px 20px 10px 20px;
+    min-height: 305px;
+}
+
+.episode-title {
+    height: 50px;
+    overflow: hidden;
+}
+
+.episodeElementLinks {
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .episodeElementLinks {
+        justify-content: space-around;
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+    .episodeElement {
+        max-width: 400px;
+        margin: 10px auto;
+    }
+}

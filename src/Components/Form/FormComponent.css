@@ -1,0 +1,55 @@
+.form-section-content {
+    min-height: fit-content;
+}
+
+/* -------------- */
+/* CULORI BUTOANE */
+/* -------------- */
+.mission-button {
+    background-color: var(--CHESTNUT);
+}
+
+.form-button {
+    background-color: var(--SUGAR);
+}
+
+.vision-button {
+    background-color: var(--BEAVER);
+}
+
+/* -------------- */
+/* STYLE TEXT BUTOANE */
+/* -------------- */
+.form-component-button-title {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-component-button-text {
+    color: white;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .form-element-button {
+        padding: 0px 5px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .form-element-button {
+        padding: 0px 5px;
+    }
+
+    .form-component-button-title {
+        font-size: 17px;
+    }
+
+    .form-component-button-text {
+
+        font-size: 13px;
+    }
+}
