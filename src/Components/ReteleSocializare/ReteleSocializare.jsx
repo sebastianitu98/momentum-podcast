@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Retelesocializare() {
+function ReteleSocializare() {
     return (
         <div className='reteleSocializare flex flex-col fixed translate-y-1/2 '>
             <a href="#" className='text-6xl my-4 mx-auto'>
@@ -20,4 +20,4 @@ function Retelesocializare() {
     )
 }
 
-export default Retelesocializare
+export default ReteleSocializare
