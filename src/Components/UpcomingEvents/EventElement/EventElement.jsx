@@ -8,7 +8,7 @@ function EventElement({ eventElement }) {
 
 
     return (
-        <div className='eventElement flex text-center py-7 px-7 my-2 border-2 border-white'>
+        <div className='eventElement flex text-center py-7 px-7 my-2 border-2 border-white w-2/3 mx-auto'>
 
             <div className='border-2 border-l-white p-4'>
                 {eventElement && <p className='eventElementDate mx-3 my-auto'>{formatDay(date2)}</p>}

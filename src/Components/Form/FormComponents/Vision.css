@@ -33,7 +33,7 @@
 @media only screen and (max-width: 930px) {
 
     .vision-component {
-        bottom: 78%;
+        bottom: 85%;
     }
 }
 
@@ -50,14 +50,14 @@
     }
 
     .vision-component {
-        bottom: 82%;
+        bottom: 89%;
     }
 }
 
 @media only screen and (max-width: 615px) {
 
     .vision-title {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .vision-description {
@@ -65,6 +65,21 @@
     }
 
     .vision-component {
-        bottom: 85%;
+        bottom: 91%;
+    }
+}
+
+@media only screen and (max-width: 508px) {
+
+    .vision-title {
+        font-size: 25px;
+    }
+
+    .vision-description {
+        font-size: 17px;
+    }
+
+    .vision-component {
+        bottom: 92%;
     }
 }

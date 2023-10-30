@@ -4,3 +4,7 @@
     color: white;
     margin-top: 80px
 }
+
+.upcomingEvents {
+    background-color: var(--EBONY);
+}
