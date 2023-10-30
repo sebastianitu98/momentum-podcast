@@ -23,19 +23,19 @@ function FormComponent() {
             <div className="form-section-buttons w-full flex justify-around">
 
                 {/* MISSION BUTTON */}
-                <button className='py-10 w-full mission-button form-element-button' onClick={() => setFormSectionState('mission')}>
+                <button className='w-full mission-button form-element-button' onClick={() => setFormSectionState('mission')}>
                     <p className='form-component-button-title'> Mission </p>
                     <p className='form-component-button-text'> Explore our goal </p>
                 </button>
 
                 {/* FORM BUTTON */}
-                <button className='py-10 w-full form-button form-element-button' onClick={() => setFormSectionState('form')}>
+                <button className='w-full form-button form-element-button' onClick={() => setFormSectionState('form')}>
                     <p className='form-component-button-title' > Register now </p>
                     <p className='form-component-button-text'> Stay in the loop </p>
                 </button>
 
                 {/* VISION BUTTON */}
-                <button className='py-10 w-full vision-button form-element-button' onClick={() => setFormSectionState('vision')}>
+                <button className='w-full vision-button form-element-button' onClick={() => setFormSectionState('vision')}>
                     <p className='form-component-button-title'> Vision </p>
                     <p className='form-component-button-text'> Get involved </p>
                 </button>

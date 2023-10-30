@@ -8,9 +8,9 @@ function EventElement({ eventElement }) {
 
 
     return (
-        <div className='eventElement flex text-center py-7 px-7 my-2 border-2 border-white w-2/3 mx-auto'>
+        <div className='eventElement flex text-center my-2 border-2 border-white mx-auto'>
 
-            <div className='border-2 border-l-white p-4'>
+            <div className='eventElementDateContainer my-auto border-2 border-l-white p-4 flex flex-col'>
                 {eventElement && <p className='eventElementDate mx-3 my-auto'>{formatDay(date2)}</p>}
                 {/* {eventElement && <p className='eventElementDate mx-3 my-auto'>{eventElement.eventDate}</p>} */}
                 <div className='flex'>
@@ -20,10 +20,8 @@ function EventElement({ eventElement }) {
                 </div>
             </div>
 
-
-
-
             {eventElement && <h3 className='eventElementTitle mx-6 my-auto w-full'>{eventElement.eventTitle}</h3>}
+
         </div>
     )
 }

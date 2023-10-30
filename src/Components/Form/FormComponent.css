@@ -1,5 +1,9 @@
 .form-section-content {
-    min-height: fit-content;
+    height: fit-content;
+}
+
+.form-element-button {
+    height: 130px;
 }
 
 /* -------------- */
@@ -32,10 +36,29 @@
     font-size: 20px;
 }
 
+@media only screen and (max-width: 1300px) {
+    .form-element-button {
+        height: 110px;
+    }
+}
+
 
 @media only screen and (max-width: 1100px) {
     .form-element-button {
         padding: 0px 5px;
+    }
+
+    .form-component-button-title {
+        font-size: 22px;
+    }
+
+    .form-component-button-text {
+
+        font-size: 16px;
+    }
+
+    .form-element-button {
+        height: 95px;
     }
 }
 
@@ -51,5 +74,47 @@
     .form-component-button-text {
 
         font-size: 13px;
+    }
+
+    .form-element-button {
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .form-element-button {
+        padding: 0px 3px;
+    }
+
+    .form-component-button-title {
+        font-size: 14px;
+    }
+
+    .form-component-button-text {
+
+        font-size: 10px;
+    }
+
+    .form-element-button {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .form-element-button {
+        padding: 0px 3px;
+    }
+
+    .form-component-button-title {
+        font-size: 12px;
+    }
+
+    .form-component-button-text {
+
+        font-size: 8px;
+    }
+
+    .form-element-button {
+        height: 40px;
     }
 }

@@ -7,8 +7,8 @@ function Navbar() {
 
             {/* LOGO SI DESCRIERE */}
             <div className="nav-logo-name flex justify-center">
-                <img src="logo.png" alt="LOGO" title='LOGO' />
-                <p className='text-center my-auto mx-2'>MOMENTUM</p>
+                <img src="logo.png" alt="LOGO" title='LOGO' id='logo' />
+                <p className='navTitle text-center my-auto mx-2'>MOMENTUM</p>
             </div>
 
             {/* BUTOANE PT NAVIGARE LA SECTIUNEA RESPECTIVA */}

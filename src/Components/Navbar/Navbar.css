@@ -4,7 +4,80 @@
     z-index: 2;
 }
 
-.logo {
-    height: 40px;
-    width: 40px;
+#logo {
+    width: 60px;
+}
+
+.nav-buttons {
+    height: 100%;
+    padding: 2px 2px;
+}
+
+.nav-buttons>li :hover {
+
+    background-color: red;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .nav-buttons>li {
+        font-size: 13px;
+    }
+
+    .navTitle {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .nav-buttons>li {
+        font-size: 11px;
+    }
+
+    .navTitle {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-buttons>li {
+        font-size: 9px;
+    }
+
+    .navTitle {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .nav-buttons>li {
+        font-size: 8px;
+    }
+
+    .navTitle {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .nav-buttons>li {
+        font-size: 8px;
+    }
+
+    .navTitle {
+        font-size: 9px;
+    }
+
+    .nav-logo-name {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .nav-buttons>li {
+        font-size: 7px;
+        margin: 0 3px;
+    }
+
 }

@@ -117,14 +117,14 @@
     }
 
     #formButton {
-        margin: 5px 5px 10px 5px;
+        margin: 3px 3px 5px 3px;
         padding: 0px 0px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .form-form-component {
         left: 50%;
-        top: 55%;
+        top: 48%;
         transform: translate(-50%, -30%);
     }
 }

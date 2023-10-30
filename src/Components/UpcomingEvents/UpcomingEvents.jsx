@@ -21,7 +21,7 @@ function UpcomingEvents() {
 
     return (
         <div className='upcomingEvents mx-auto text-center w-full'>
-            <h2 id='upcomingEventsTitle' className='mx-auto my-14'>Upcoming episodes</h2>
+            <h2 id='upcomingEventsTitle' className='mx-auto'>Upcoming episodes</h2>
 
             <div className="upcomingEventsMap flex mt-6"></div>
             {upcomingEventsData.map((element, index) => <EventElement key={index} eventElement={element} />)}
