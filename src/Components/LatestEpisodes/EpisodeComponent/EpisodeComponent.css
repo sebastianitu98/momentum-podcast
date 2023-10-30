@@ -1,7 +1,13 @@
 .episodeElement {
     background-color: #6C7255;
     padding: 25px 20px 10px 20px;
-    min-height: 305px;
+    min-height: 250px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.episodeImg {
+    margin-bottom: 8px;
 }
 
 .episode-title {
@@ -23,7 +29,7 @@
 
 @media only screen and (max-width: 930px) {
     .episodeElement {
-        max-width: 350px;
+        max-width: 290px;
         margin: 10px auto;
     }
 }

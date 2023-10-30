@@ -3,12 +3,12 @@ import './EpisodeComponent.css'
 
 function EpisodeComponent({ episodeData }) {
     return (
-        <div className='episodeElement mx-6 flex flex-col justify-between'>
-            {episodeData && <img src={`${episodeData.image}`} alt="IMG" className='mb-4' />}
+        <div className='episodeElement mx-6 flex flex-col justify-between '>
+            {episodeData && <img src={`${episodeData.image}`} alt="IMG" className='episodeImg' />}
 
             {episodeData && <p className='episode-title text-white'> {episodeData.title} </p>}
 
-            <div className="episodeElementLinks flex mt-2">
+            <div className="episodeElementLinks flex justify-between">
 
                 {episodeData &&
                     <a href={`${episodeData.youtubeLink}`} target="_blank">

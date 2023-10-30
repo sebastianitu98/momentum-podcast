@@ -2,18 +2,39 @@
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
     color: white;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .latestEpisodes {
     background-color: var(--EBONY);
 }
 
+.latestEpisodesMap {
+    margin-top: 24px;
+}
 
 @media only screen and (max-width: 870px) {
     .latestEpisodesMap {
         flex-direction: column;
         width: 100%;
+        margin-top: 0px;
+    }
+
+    .episodeElement {
+        height: 200px;
+    }
+
+    .episodeElementLinks>a {
+        width: 40px;
+        margin-top: 0px;
+    }
+
+    #latestEpisodesTitle {
+        margin-top: 10px;
+    }
+
+    .episodeImg {
+        width: 250px;
     }
 }
 
@@ -21,26 +42,26 @@
 @media only screen and (max-width: 540px) {
     #latestEpisodesTitle {
         font-size: 40px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 }
 
 @media only screen and (max-width: 440px) {
     #latestEpisodesTitle {
         font-size: 30px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 }
 
 @media only screen and (max-width: 340px) {
     #latestEpisodesTitle {
         font-size: 20px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 }
 
 @media only screen and (max-width: 340px) {
     #latestEpisodesTitle {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 }

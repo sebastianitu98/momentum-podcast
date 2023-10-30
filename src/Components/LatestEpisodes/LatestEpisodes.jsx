@@ -29,7 +29,7 @@ function LatestEpisodes() {
         <div className='latestEpisodes mx-auto text-center pb-10 w-full items-center'>
             <h2 className='mx-auto' id='latestEpisodesTitle'>Latest episodes</h2>
 
-            <div className="latestEpisodesMap flex mt-6 mx-auto items-center">
+            <div className="latestEpisodesMap flex mx-auto items-center">
                 {episodes.map((element, index) => <EpisodeComponent key={index} episodeData={element} />)}
             </div>
         </div>

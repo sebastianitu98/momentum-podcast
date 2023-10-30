@@ -20,7 +20,7 @@ function Form() {
                 <input type="email" onChange={e => setData({ ...data, email: e.target.value })} value={data.email} className='input text-center' placeholder='Enter your email' />
 
                 <br className='br-element' />
-                < div className='flex justify-center'>
+                < div className='flex justify-center items-center'>
                     <input type="checkbox" id='checkbox-gdpr' onChange={e => setData({ ...data, gdprConsent: e.target.value })} value={data.gdprConsent} />
                     <label htmlFor="gdpr" id='label-gdpr' className='mx-2'>GDPR consent</label>
                 </div>

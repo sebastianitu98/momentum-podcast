@@ -22,10 +22,15 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -30%);
+    background-color: var(--ROSEDA);
+    padding: 8px;
+    border: 2px solid #894E38;
+    border-radius: 10px;
+
 }
 
 #formButton {
-    margin: 30px 10px 30px 10px;
+    margin: 30px 10px 0px 10px;
     padding: 10px 0px;
     border: 2px solid white;
     border-radius: 10px;
@@ -57,7 +62,7 @@
     }
 
     #formButton {
-        margin: 10px 7px 20px 7px;
+        margin: 10px 7px 0px 7px;
         padding: 3px 0px;
     }
 }
@@ -86,13 +91,19 @@
     }
 
     #formButton {
-        margin: 7px 7px 20px 7px;
+        margin: 7px 7px 0px 7px;
         padding: 2px 0px;
         font-size: 15px;
     }
 
     .br-element {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .form-form-component {
+        top: 44%;
     }
 }
 
@@ -117,7 +128,7 @@
     }
 
     #formButton {
-        margin: 3px 3px 5px 3px;
+        margin: 3px 3px 0px 3px;
         padding: 0px 0px;
         font-size: 11px;
     }
