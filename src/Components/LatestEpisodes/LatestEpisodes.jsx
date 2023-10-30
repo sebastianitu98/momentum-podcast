@@ -11,18 +11,6 @@ function LatestEpisodes() {
             youtubeLink: 'https://www.youtube.com/watch?v=hF6IcInVlGs&t=136s',
             spotifyLink: 'https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd#login',
         },
-        {
-            image: 'ThumbNail.jpg',
-            title: 'In cat timp a facut Janette milionul?!',
-            youtubeLink: 'https://www.youtube.com/watch?v=hF6IcInVlGs&t=136s',
-            spotifyLink: 'https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd#login',
-        },
-        {
-            image: 'ThumbNail.jpg',
-            title: 'Exista scurtaturi pentru a ajunge un om de succes?',
-            youtubeLink: 'https://www.youtube.com/watch?v=hF6IcInVlGs&t=136s',
-            spotifyLink: 'https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd#login',
-        },
     ]
 
     return (

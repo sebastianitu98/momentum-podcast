@@ -15,6 +15,8 @@ function App() {
 
       <Navbar />
 
+      <img src="cover.jpg" alt="IMG" id='cover' className='w-full h-1/2' />
+
       <FormComponent />
 
       <LatestEpisodes />
