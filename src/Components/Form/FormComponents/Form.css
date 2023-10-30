@@ -95,3 +95,36 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 700px) {
+
+    #label-gdpr {
+        font-size: 12px;
+    }
+
+    #checkbox-gdpr {
+        height: 12px;
+        width: 12px;
+    }
+
+    .label {
+        font-size: 12px;
+    }
+
+    .input {
+        height: 18px;
+        margin-bottom: 4px;
+    }
+
+    #formButton {
+        margin: 5px 5px 10px 5px;
+        padding: 0px 0px;
+        font-size: 12px;
+    }
+
+    .form-form-component {
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -30%);
+    }
+}

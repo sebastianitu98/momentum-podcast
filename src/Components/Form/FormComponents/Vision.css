@@ -84,3 +84,34 @@
         bottom: 92%;
     }
 }
+
+@media only screen and (max-width: 472px) {
+
+    .vision-title {
+        font-size: 20px;
+    }
+
+    .vision-description {
+        font-size: 14px;
+    }
+
+    .vision-component {
+        bottom: 93%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .vision-title {
+        font-size: 16px;
+    }
+
+    .vision-description {
+        font-size: 13px;
+        margin-right: 25px;
+    }
+
+    .vision-component {
+        bottom: 94%;
+    }
+}

@@ -58,3 +58,34 @@
         font-size: 30px;
     }
 }
+
+
+@media only screen and (max-width: 613px) {
+
+    .mission-component {
+        bottom: 6%;
+    }
+
+    .mission-description {
+        font-size: 15px;
+    }
+
+    .mission-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+
+    .mission-component {
+        bottom: 5%;
+    }
+
+    .mission-description {
+        font-size: 13px;
+    }
+
+    .mission-title {
+        font-size: 17px;
+    }
+}
