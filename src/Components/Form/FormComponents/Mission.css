@@ -89,3 +89,48 @@
         font-size: 17px;
     }
 }
+
+@media only screen and (max-width: 423px) {
+
+    .mission-component {
+        bottom: 5%;
+    }
+
+    .mission-description {
+        font-size: 10px;
+    }
+
+    .mission-title {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 362px) {
+
+    .mission-component {
+        bottom: 5%;
+    }
+
+    .mission-description {
+        font-size: 9px;
+    }
+
+    .mission-title {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+
+    .mission-component {
+        bottom: 5%;
+    }
+
+    .mission-description {
+        font-size: 8px;
+    }
+
+    .mission-title {
+        font-size: 10px;
+    }
+}
