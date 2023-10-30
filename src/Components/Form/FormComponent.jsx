@@ -11,15 +11,6 @@ function FormComponent() {
     return (
         <div className='form-section mx-auto w-full'>
 
-            {/* COMPONENT TO RENDER WHEN PAGE-LOAD OR BUTTON CLICK */}
-            <div className="form-section-content">
-                {formSectionState == 'mission' && <Mission />}
-                {formSectionState == 'form' && <Form />}
-                {formSectionState == 'vision' && <Vision />}
-            </div>
-
-
-
             <div className="form-section-buttons w-full flex justify-around">
 
                 {/* MISSION BUTTON */}
@@ -40,6 +31,17 @@ function FormComponent() {
                     <p className='form-component-button-text'> Get involved </p>
                 </button>
             </div>
+
+            {/* COMPONENT TO RENDER WHEN PAGE-LOAD OR BUTTON CLICK */}
+            <div className="form-section-content">
+                {formSectionState == 'mission' && <Mission />}
+                {formSectionState == 'form' && <Form />}
+                {formSectionState == 'vision' && <Vision />}
+            </div>
+
+
+
+
         </div >
     )
 }
