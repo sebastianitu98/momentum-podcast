@@ -6,7 +6,7 @@ function CopyrightFooter() {
         <div className='copyrightFooter mx-auto text-white mt-6 py-2 w-full'>
             <div className='flex mx-auto justify-center'>
                 <div className='flex'>
-                    <img src='src/assets/copyrightIcon.png' alt="copyright" />
+                    <img src='copyrightIcon.png' alt="copyright" />
                     2035 by Momentum
                 </div>
 

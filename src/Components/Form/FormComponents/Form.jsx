@@ -8,7 +8,7 @@ function Form() {
 
     return (
         <div className='text-white relative'>
-            <img src="src\assets\cover.jpg" alt="IMG" />
+            <img src="cover.jpg" alt="IMG" />
 
             <form action="" className='absolute form-form-component flex flex-col'>
 

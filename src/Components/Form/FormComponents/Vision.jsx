@@ -4,7 +4,7 @@ import './Vision.css'
 function Vision() {
     return (
         <div className='form-vision-component text-white'>
-            <img src="src\assets\vision.jpg" alt="IMG" className='mx-auto' />
+            <img src="vision.jpg" alt="IMG" className='mx-auto' />
             <div className="vision-component absolute">
                 <p className="form-component-title vision-title">VISION</p>
                 <p className='form-component-description vision-description'>

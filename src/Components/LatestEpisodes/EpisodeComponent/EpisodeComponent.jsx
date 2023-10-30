@@ -12,13 +12,13 @@ function EpisodeComponent({ episodeData }) {
 
                 {episodeData &&
                     <a href={`${episodeData.youtubeLink}`} target="_blank">
-                        <img src={'src/assets/youtube-logo-2431 (1).png'} alt="IMG" />
+                        <img src={'youtube-logo-2431 (1).png'} alt="IMG" />
                     </a>
                 }
 
                 {episodeData &&
                     <a href={`${episodeData.spotifyLink}`} target="_blank">
-                        <img src={'src/assets/spotify-logo-5434 (1).png'} alt="IMG" />
+                        <img src={'spotify-logo-5434 (1).png'} alt="IMG" />
                     </a>
                 }
 

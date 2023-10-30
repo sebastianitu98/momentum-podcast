@@ -4,7 +4,7 @@ import './Mission.css'
 function Mission() {
     return (
         <div className='form-mission-component relative'>
-            <img src="src\assets\mission.jpg" alt="IMG" className='mx-auto' />
+            <img src="mission.jpg" alt="IMG" className='mx-auto' />
             <div className="mission-component absolute">
                 <p className="mission-title">MISSION</p>
                 <p className='mission-description'>
