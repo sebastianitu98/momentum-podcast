@@ -3,8 +3,9 @@ import './EpisodeComponent.css'
 
 function EpisodeComponent({ episodeData }) {
     return (
-        <div className='episodeElement mx-6 flex flex-col justify-between '>
-            {episodeData && <img src={`${episodeData.image}`} alt="IMG" className='episodeImg' />}
+        <div className='episodeElement mx-10 flex flex-col justify-between '>
+            {episodeData.image && <img src={`${episodeData.image}`} alt="IMG" className='episodeImg' />}
+            {!episodeData.image && <img src={`momentum_youtube.png`} alt="IMG" className='episodeImg' />}
 
             {episodeData && <p className='episode-title text-white'> {episodeData.title} </p>}
 

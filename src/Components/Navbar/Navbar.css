@@ -2,6 +2,8 @@
     background-color: #3D432F;
     color: white;
     z-index: 2;
+    max-width: 1920px;
+    height: 50px;
 }
 
 #logo {
@@ -14,9 +16,8 @@
 }
 
 .nav-buttons>li :hover {
-
-    background-color: red;
-    height: 100%;
+    height: 150%;
+    background-color: var(--CHESTNUT);
 }
 
 

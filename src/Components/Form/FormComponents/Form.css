@@ -20,13 +20,18 @@
 
 .form-form-component {
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -30%);
     background-color: var(--ROSEDA);
     padding: 8px;
     border: 2px solid #894E38;
     border-radius: 10px;
 
+}
+
+.form-form-form {
+    width: auto;
+    min-height: 300px;
 }
 
 #formButton {

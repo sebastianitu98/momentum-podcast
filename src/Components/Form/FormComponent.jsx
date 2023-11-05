@@ -9,7 +9,7 @@ function FormComponent() {
     const [formSectionState, setFormSectionState] = useState('form')
 
     return (
-        <div className='form-section mx-auto w-full'>
+        <div className='form-section mx-auto w-full' id='register_now'>
 
             <div className="form-section-buttons w-full flex justify-around">
 

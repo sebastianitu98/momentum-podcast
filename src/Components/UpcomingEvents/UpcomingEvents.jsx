@@ -20,7 +20,7 @@ function UpcomingEvents() {
     ]
 
     return (
-        <div className='upcomingEvents mx-auto text-center w-full'>
+        <div className='upcomingEvents mx-auto text-center w-full' id='upcoming_episodes'>
             <h2 id='upcomingEventsTitle' className='mx-auto'>Upcoming episodes</h2>
 
             <div className="upcomingEventsMap flex mt-6"></div>

@@ -12,7 +12,7 @@
 
 .vision-component {
     left: 9%;
-    bottom: 68%;
+    bottom: 50%;
 }
 
 
@@ -20,21 +20,21 @@
 @media only screen and (max-width: 1570px) {
 
     .vision-component {
-        bottom: 68%;
+        bottom: 52%;
     }
 }
 
 @media only screen and (max-width: 1350px) {
 
     .vision-component {
-        bottom: 75%;
+        bottom: 58%;
     }
 }
 
 @media only screen and (max-width: 930px) {
 
     .vision-component {
-        bottom: 85%;
+        bottom: 56%;
     }
 }
 
@@ -51,7 +51,7 @@
     }
 
     .vision-component {
-        bottom: 89%;
+        bottom: 60%;
     }
 }
 
@@ -66,7 +66,7 @@
     }
 
     .vision-component {
-        bottom: 91%;
+        bottom: 62%;
     }
 }
 
@@ -81,7 +81,7 @@
     }
 
     .vision-component {
-        bottom: 92%;
+        bottom: 63%;
     }
 }
 
@@ -96,7 +96,7 @@
     }
 
     .vision-component {
-        bottom: 93%;
+        bottom: 64%;
     }
 }
 
@@ -112,6 +112,6 @@
     }
 
     .vision-component {
-        bottom: 94%;
+        bottom: 67%;
     }
 }

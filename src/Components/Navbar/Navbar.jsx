@@ -13,11 +13,11 @@ function Navbar() {
 
             {/* BUTOANE PT NAVIGARE LA SECTIUNEA RESPECTIVA */}
 
-            <ul className='nav-buttons my-auto flex'>
-                <li className='mx-2'><a href="#" >REGISTER NOW</a></li>
-                <li className='mx-2'><a href="#">LATEST PODCASTS</a></li>
-                <li className='mx-2'><a href="#">UPCOMING EVENTS</a></li>
-                <li className='mx-2'><a href="#">ABOUT US</a></li>
+            <ul className='nav-buttons my-auto flex flex items-center'>
+                <li className='mx-2'><a href="#register_now" >REGISTER NOW</a></li>
+                <li className='mx-2'><a href="#latest_episodes">LATEST EPISODES</a></li>
+                <li className='mx-2'><a href="#upcoming_episodes">UPCOMING EVENTS</a></li>
+                <li className='mx-2'><a href="#register_now">ABOUT US</a></li>
             </ul>
 
 

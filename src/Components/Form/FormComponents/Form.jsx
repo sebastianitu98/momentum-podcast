@@ -7,9 +7,8 @@ function Form() {
     const [data, setData] = useState({ nameSurname: '', email: '', gdprConsent: false })
 
     return (
-        <div className='text-white relative'>
-            <img src="mike.jpg" alt="IMG" />
-
+        <div className='form-form-form text-white relative'>
+            <img src="mike.jpg" alt="IMG" className='mx-auto' />
             <form action="" className='absolute form-form-component flex flex-col'>
 
                 <label htmlFor="name" className='label'>Name and Surname</label>
